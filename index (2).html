@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+    <head><title>Student Grades</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="style7.css"/>
+  <link rel="icon" type="image/x-icon" href="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Websites/download%20(31).jpeg">
+    </script>
+   <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+  </head>
+  <body>
+    <body onload="checkCookie()"></body>
+    <div class="header">
+      <h1><u>Learning Techniques &#128511;</u></h1>
+      <p>Need help with learning, check this website for help.</p>
+    </div>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background:#00FFFF
+;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:orange;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+input {
+  margin: 0.4rem;
+}
+</style>
+
+ <div class="topnav">
+  <a href="https://www.khanacademy.org/">Khan Academy</a>
+  <a href="https://www.coursera.org/">Coursera</a>
+  <a href="https://www.edx.org/">edX</a>
+  <a href="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Websites/website_about_sports.html">Website for After School Activities/ Sports</a>
+  </div>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://www.youtube.com/">Youtube</a>
+  <a href="https://time.com/4960202/most-influential-websites/">Websites</a>
+  <a href="https://www.britannica.com/dictionary/consultation#:~:text=Britannica%20Dictionary%20definition%20of%20CONSULTATION,telephone%20consultations">Consultation</a>
+  <a href="https://www.myon.com/">Own reading</a>
+  <a href="https://ucc.vt.edu/academic_support/study_skills_information/sq3r_reading-study_system.html#:~:text=SQ3R%20is%20a%20reading%20comprehension,gain%20from%20reading%20is%20important.">The SQ3R Method</a>
+  <a href="https://www.retrievalpractice.org/why-it-works">Retrieval Practice</a>
+  <a href="https://productivenotes.com/the-pq4r-method#:~:text=The%20SQ3R%20method%20has%20five,%2C%20namely%2C%20Reflect%20and%20Preview.">The PQ4R Method</a>
+  <a href="https://www.structural-learning.com/post/spaced-practice-a-teachers-guide#:~:text=Spaced%20practice%20refers%20to%20a,strategies%20for%20long%2Dterm%20learning.">Spaced Practice</a>
+  <a href="https://fs.blog/feynman-technique/">The Feynman Technique</a>
+  <a href="https://www.mometrix.com/academy/leitner-study-method/#:~:text=One%20of%20the%20best%20and,are%20the%20least%20familiar%20with.">Leitner System</a>
+  <a href="https://www.absolutelystudying.com/colour-code-your-notes#:~:text=Colour%20coding%20is%20used%20to,is%20better%20done%20on%20review.">Color-Coded Notes</a>
+  <a href="https://www.adelaide.edu.au/writingcentre/sites/default/files/docs/learningguide-mindmapping.pdf">Mind Mapping</a>
+</div>
+<h2>The link for more math Help</h2>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+let text = "Free Class Tutorials for Math";
+let result = text.link("https://www.khanacademy.org/");
+document.getElementById("demo1").innerHTML = result;
+</script>
+
+<h2>Most Popular Learning Ways</h2>
+<p>Are:</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+  <article class="all-browsers">
+  <h1>Learning Methods that helps students:</h1>
+  <article class="browser">
+    <h2>Flashcards</h2>
+    <p>Flashcards help students to engage in active recall or a process wherein students actively engage in learning by stimulating our memories and creating lasting connections to the material. When you create flashcards, you should incorporate images as well as words to help improve your active recall.</p>
+    <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/download%20(25).jpeg"> <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/download%20(23).jpeg">
+  </article>
+  <article class="browser">
+    <h2>Note Taking</h2>
+    <p>Good note-taking allows a permanent record of key information that you can integrate with your own writing, and use for exam revision. Taking reliable, accurate notes also reduces the risk of plagiarising. It helps you distinguish where your ideas came from and how and what you think about those ideas</p>
+    <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/download%20(23).jpeg"><img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Final%20Projects/Images/download%20(27).jpeg">
+  </article>
+  <article class="browser">
+    <h2>Relaxing</h2>
+    <p>Have you ever been bored while studing? Well now you won't because I created a playlist that will entertain you while studying.
+  <a href="https://open.spotify.com/playlist/0ISFNSvkCJ6pttqAsK9K7Y" class="btn-link">Entertainment Playlist</a></p>
+  <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Final%20Projects/Images/download%20(24).jpeg">
+  </article>
+  
+<h2> A more effective way to know different types of reading methods is by watching this video:
+<p><a href="https://www.youtube.com/watch?v=VOVWAK4kafM" class="btn-link">Learning Techniques Video</a></h2></p>
+<article class="browser">
+    <h2>Chewing Gum</h2>
+    <p>Activities that helps brain development can be chewing gum. Gum is known to help students develop faster. Gum is very reliable for any doing work and I surely suggest it for your own good.Teachers might want to think twice about posting no gum-chewing signs in the classroom. It turns out that the sticky substance might help students concentrate. The researchers say that gum increases the flow of oxygen to regions of the brain responsible for attention.</p>
+    <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Final%20Projects/Images/download%20(25).jpeg">
+    <fieldset>
+  <legend>Choose your favorite relaxing method</legend>
+
+  <input type="radio" id="sleep" name="relaxing" value="K" />
+  <label for="sleep">sleep</label><br />
+
+  <input type="radio" id="yoga" name="relaxing" value="S" />
+  <label for="Yoga">yoga</label><br />
+
+  <input type="radio" id="music" name="relaxing" value="M" />
+  <label for="Music">music</label>
+  <button>Submit</button>
+</fieldset>
+    </article><label for="my website">Choose You Favorite Learning Technique:</label>
+<select id="my website">
+  <option value="none">None</option>
+  <option value="Note Taking">Note taking</option>
+  <option value="Flashcards">Flashcards</option>
+  <option value="Rereading notes">Rereading Notes</option>
+</select> will probably help me better than the other methods.
+<article class="browser">
+    <h2>The SQ3R and PQ4R</h2>
+    <p>The PQ4R method is an extension of the SQ3R method. The SQ3R method has five steps: Survey, Question, Read, Recite, and Review. The PQ4R method has an additional step, namely, Reflect and Preview.We can certainly debate the meaningful differences between 'survey' and 'preview' and why PQ4R has another 'R', but the main difference is that SQ3R focuses mostly on comprehension while PQ4R improves both comprehension and memorization.</p>
+    <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Final%20Projects/Images/download%20(28).jpeg"><img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Final%20Projects/Images/download%20(29).jpeg">
+  </article>
+<p id="demo">I AM THE BEST AT WEBSITES</p>
+<button type="button" onclick="myFunction()">Click Here If Wrong!
+<i>and if it lights, YOU are Wrong.</i></button>
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "25px";
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("demo").style.backgroundColor = "yellow";
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<h1>This graph shows how effecting it is to learn and understand. This is because grades will be very important for ones future career.So parents do not acknowledge or take into notice primary or middle school grades. </h1>
+<article class="browser">
+    <h2>The Feynman Technique</h2>
+<p> <h1>The Feynman Technique consist of 5 steps:</h1>
+      <p>1.Pretend to teach a concept you want to learn about to a student in the sixth grade.</p>
+<p>2.Identify gaps in your explanation.</p>
+<p>3.Go back to the source material to better understand it.</p>
+<p>4.Organize and simplify.</p>
+<p>5.Transmit (optional).</p>
+    <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Final%20Projects/Images/download%20(6).png"><img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/Final%20Projects/Images/download%20(30).jpeg">
+  </article>
+  
+   <p class="dotted">VERY IMPORTANT!!
+   this website will help you with everything you need to know, but if you are already passing your year with more than a 3.6 GPA, this website is not meant for you.
+   </p>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  width:430%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+p.dotted {border-style: dotted;}
+
+h1 {
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+</style>
+<script src="scriptforjava.js" defer></script>
+
+<div class="header">
+  <h1>Steps To be Good at NoteWriting Method</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>1.Take the Notes</li>
+      <li>2. Check if there is any errors.</li>
+      <li>3.Start reading your work by topic</li>
+      <li>4.Write what you memorized/understood about the topic</li>
+      <li>5.Check the notes again then write what you missed.</li>
+      <li>6.Then repeat the concept until you get it</li>
+       <footer>
+  <p>Author: Ishema Aime<br>
+  <a href="aishema@kicsrw.org">aishema@kicsrw.org</a></p>
+</footer>
+    </ul>
+  </div>
+  <div class="col-6 col-s-9">
+    <h1>
+  <img src="file:///media/fuse/drivefs-ae1dfb4dee77b8ffe653ca3221d4f631/root/download%20(23).jpeg"style="width:500px;height:300px;">
+    </h1>
+  </div>
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Are you doing</p>
+      <h2>Where?</h2>
+      <p>Are you going</p>
+      <h2>How?</h2>
+      <p>Are you going to get good grades</p>
+      <p>😍🥺</p>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<script>
+const xValues = [ "Primary", "Middle School", "HighSchool", "University"];
+const yValues = [1.9, 2.9,3.0 ,3.1 ];
+const barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Average School Grades(GPA)"
+    }
+  }
+});
+</script>
+<p style="color:green">Aime created</p>
+
+<p style="color:orange">DISSS   :)</p>
+    </body>
+    </html>
